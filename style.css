@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: monospace;
+}
+
+#cookieNotice {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 100px;
+  background-color: slateblue;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.button-decline {
+  background-color: #f00;
+}
+
+.button-accept {
+  background-color: #0f0;
+}
+
+body {
+  color: black;
+  background-color: white;
+}
+
+body.dark {
+  color: white;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
